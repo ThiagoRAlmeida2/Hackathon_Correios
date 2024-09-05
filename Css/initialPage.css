@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block {
+    background-color: #0f0f5a;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.block:last-child {
+    margin-bottom: 0;
+}
