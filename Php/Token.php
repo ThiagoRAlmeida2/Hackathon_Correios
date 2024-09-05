@@ -2,16 +2,16 @@
 session_start();
 
 // Função que gera o token com base na página
-function gerarToken($tipo) {
-    // Verifica se já existe um contador para o tipo específico
-    if (!isset($_SESSION[$tipo])) {
-        $_SESSION[$tipo] = 1; // Inicia o contador
+function gerarToken($contador) {
+    // Verifica se já existe um contador
+    if (!isset($_SESSION[$contador])) {
+        $_SESSION[$contador] = 1;
     } else {
-        $_SESSION[$tipo]++; // Incrementa o contador
+        $_SESSION[$contador]++;
     }
 
     // Gera o token com a letra correspondente e o número incrementado
-    return $tipo . str_pad($_SESSION[$tipo], 5, '0', STR_PAD_LEFT); // Ex: E00001, R00001, P00001
+    return $contador . str_pad($_SESSION[$contador], 5, '0', STR_PAD_LEFT); // Ex: E00001, R00001, P00001
 }
 
 // Verifica de qual página o pedido foi feito e gera o token correspondente
