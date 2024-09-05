@@ -17,16 +17,21 @@ function gerarToken($contador) {
 // Verifica de qual página o pedido foi feito e gera o token correspondente
 if (isset($_GET['pagina'])) {
     $pagina = $_GET['pagina'];
+    $mensagem = '';
 
     switch ($pagina) {
         case 'envioDeEncomendas':
             $token = gerarToken('E');
+            $mensagem = 'Siga para o setor 1';
             break;
         case 'receberEncomendas':
             $token = gerarToken('R');
+            $mensagem = 'Siga para o setor 2';
+
             break;
         case 'problemas':
             $token = gerarToken('P');
+            $mensagem = 'Siga para o setor 3';
             break;
         default:
             $token = 'Página inválida';

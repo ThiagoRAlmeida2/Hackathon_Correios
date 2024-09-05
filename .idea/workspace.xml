@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6b5385f-e142-443d-baee-64e64f9fd917" name="Changes" comment="Primeira pagina concluida">
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-    </list>
+    <list default="true" id="e6b5385f-e142-443d-baee-64e64f9fd917" name="Changes" comment="Adicionando função de Token.php" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,12 +30,12 @@
     &quot;assignee&quot;: &quot;ThiagoRAlmeida2&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ThiagoRAlmeida2/Hackathon_Correios.git",
-    "accountId": "5b176b97-61cd-48bd-8c9e-fad8d7f1ce32"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ThiagoRAlmeida2/Hackathon_Correios.git&quot;,
+    &quot;accountId&quot;: &quot;5b176b97-61cd-48bd-8c9e-fad8d7f1ce32&quot;
   }
-}]]></component>
+}</component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\tools\php\php.exe" />
   <component name="ProjectColorInfo">{
@@ -49,22 +47,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "PHP Script.Token.php.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jayce\WebstormProjects\Correios" />
@@ -90,6 +89,7 @@
       <updated>1725576347003</updated>
       <workItem from="1725576347857" duration="3098000" />
       <workItem from="1725579809414" duration="101000" />
+      <workItem from="1725579919079" duration="395000" />
     </task>
     <task id="LOCAL-00001" summary="Primeira pagina concluida">
       <option name="closed" value="true" />
@@ -115,7 +115,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725578896876</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adicionando função de Token.php">
+      <option name="closed" value="true" />
+      <created>1725580189117</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725580189117</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adicionando função de Token.php">
+      <option name="closed" value="true" />
+      <created>1725580295460</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725580295460</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeira pagina concluida" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primeira pagina concluida" />
+    <MESSAGE value="Adicionando função de Token.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando função de Token.php" />
   </component>
 </project>
