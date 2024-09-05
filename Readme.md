@@ -14,7 +14,7 @@ O sistema está sendo desenvolvido utilizando **HTML/CSS** para a interface do u
 
 1. **Envio de Encomendas**: Permite que o cliente registre uma encomenda para envio, gerando um token exclusivo para rastreamento.
 2. **Receber Encomendas**: Facilita o acompanhamento de encomendas enviadas ao cliente com base no token gerado.
-3. **Relatar Problemas**: Permite que os clientes registrem problemas com suas encomendas, como atrasos ou extravios.
+3. **Relatar Problemas**: Permite que os clientes converse com funcionarios sobre problemas com suas encomendas, como atrasos ou extravios.
 
 ## Tecnologias Utilizadas
 
