@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6b5385f-e142-443d-baee-64e64f9fd917" name="Changes" comment="Primeira pagina concluida" />
+    <list default="true" id="e6b5385f-e142-443d-baee-64e64f9fd917" name="Changes" comment="Primeira pagina concluida">
+      <change afterPath="$PROJECT_DIR$/Php/Token.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725576347003</updated>
-      <workItem from="1725576347857" duration="2406000" />
+      <workItem from="1725576347857" duration="3098000" />
     </task>
     <task id="LOCAL-00001" summary="Primeira pagina concluida">
       <option name="closed" value="true" />
@@ -90,7 +94,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725578810954</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Primeira pagina concluida">
+      <option name="closed" value="true" />
+      <created>1725578841500</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725578841500</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Primeira pagina concluida">
+      <option name="closed" value="true" />
+      <created>1725578896876</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725578896876</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
