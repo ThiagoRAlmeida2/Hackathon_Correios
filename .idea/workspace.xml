@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6b5385f-e142-443d-baee-64e64f9fd917" name="Changes" comment="Tokens" />
+    <list default="true" id="e6b5385f-e142-443d-baee-64e64f9fd917" name="Changes" comment="Version finish">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Cliente/FormularioCliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Cliente/FormularioCliente.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/EnvioEncomendas/EnvioDeEncomendas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/EnvioEncomendas/EnvioDeEncomendas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/ReceberEncomendas/ReceberEncomendas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ReceberEncomendas/ReceberEncomendas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/FinalizarEnvioEncomendas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/FinalizarEnvioEncomendas.php" afterDir="false" />
+    </list>
     <list id="84693e57-4306-4ce5-bd23-0d52e93f5705" name="Changes by ferna" comment="Changes by ferna" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +129,8 @@
       <workItem from="1725632124787" duration="5000" />
       <workItem from="1725632228770" duration="613000" />
       <workItem from="1725634040565" duration="13753000" />
+      <workItem from="1725651175079" duration="250000" />
+      <workItem from="1725653980699" duration="749000" />
     </task>
     <task id="LOCAL-00001" summary="Primeira pagina concluida">
       <option name="closed" value="true" />
@@ -268,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725648261217</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Version finish">
+      <option name="closed" value="true" />
+      <created>1725651374058</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1725651374058</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +300,7 @@
     <MESSAGE value="Css" />
     <MESSAGE value="Changes by ferna" />
     <MESSAGE value="Tokens" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tokens" />
+    <MESSAGE value="Version finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version finish" />
   </component>
 </project>

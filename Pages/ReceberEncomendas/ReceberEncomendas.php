@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Gerar Token De Envio de Encomendas</title>
+    <!-- Falta Style -->
     <script>
         function redirecionar() {
             window.location.href = '../ReceberEncomendas/ReconhecerTokenReceber.php';
