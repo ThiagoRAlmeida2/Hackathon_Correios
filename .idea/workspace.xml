@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6b5385f-e142-443d-baee-64e64f9fd917" name="Changes" comment="Alterando nome de arquivo SalvarDadosCliente.php">
+    <list default="true" id="e6b5385f-e142-443d-baee-64e64f9fd917" name="Changes" comment="Adicionando comentarios">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/EnvioDeEncomendas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/EnvioDeEncomendas.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/PaginasSeguintes/Formulario/FormualarioEnvioEncomendas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PaginasSeguintes/Formulario/FormualarioEnvioEncomendas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/PaginasSeguintes/Formulario/FormularioCliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PaginasSeguintes/Formulario/FormularioCliente.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/PaginasSeguintes/FormularioReceberEncomenda.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PaginasSeguintes/Formulario/FormularioReceberEncomenda.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Problemas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Problemas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/ReceberEncomendas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ReceberEncomendas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/ReconhecerTokenPage.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ReconhecerTokenPage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/ReconhecerToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/ReconhecerToken.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +103,10 @@
       <workItem from="1725580541446" duration="3206000" />
       <workItem from="1725583842849" duration="405000" />
       <workItem from="1725618227490" duration="2012000" />
-      <workItem from="1725620466588" duration="2406000" />
+      <workItem from="1725620466588" duration="2692000" />
+      <workItem from="1725632124787" duration="5000" />
+      <workItem from="1725632228770" duration="613000" />
+      <workItem from="1725634040565" duration="794000" />
     </task>
     <task id="LOCAL-00001" summary="Primeira pagina concluida">
       <option name="closed" value="true" />
@@ -208,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725621525885</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Adicionando comentarios">
+      <option name="closed" value="true" />
+      <created>1725623915255</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1725623915255</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +224,7 @@
     <MESSAGE value="Implementando função ReconhecerToken.php e ReconhecerTokenPage.html" />
     <MESSAGE value="Pagina de Fomulario de ProximaPaginaEnvio.php" />
     <MESSAGE value="Alterando nome de arquivo SalvarDadosCliente.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alterando nome de arquivo SalvarDadosCliente.php" />
+    <MESSAGE value="Adicionando comentarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando comentarios" />
   </component>
 </project>

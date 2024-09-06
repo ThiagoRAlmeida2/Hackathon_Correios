@@ -19,7 +19,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <title>Formulário de Encomendas</title>
-    <link rel="stylesheet" href="../../Css/generalStyle.css">
+    <link rel="stylesheet" href="../../../Css/generalStyle.css">
 </head>
 <body>
 
