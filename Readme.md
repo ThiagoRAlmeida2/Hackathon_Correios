@@ -8,7 +8,7 @@ Este repositório contém o desenvolvimento de um **Sistema de Autoatendimento**
 - **Receber Encomendas**
 - **Relatar Problemas**
 
-O sistema está sendo desenvolvido utilizando **HTML/CSS** para a interface do usuário e **PHP** para a lógica de backend, que inclui a geração de tokens através de incrementos para o acompanhamento de solicitações.
+O sistema está sendo desenvolvido utilizando **HTML/CSS** para a interface do usuário e **PHP** para a lógica de backend, que inclui a geração de tokens através de incrementos para o acompanhamento de solicitações, e tambem o reconhecimento dos tokens dentro do setor e pagina correspondente.
 
 ## Funcionalidades
 
