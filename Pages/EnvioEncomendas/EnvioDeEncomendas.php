@@ -7,7 +7,7 @@
         function redirecionar() {
             // Adiciona o token como parâmetro na URL
             const token = document.getElementById('token').textContent.trim();
-            window.location.href = 'ReconhecerTokenPage.php?token=' + token;
+            window.location.href = '../EnvioEncomendas/ReconhecerTokenEnvio.php';
         }
     </script>
 </head>

@@ -1,6 +1,6 @@
 <?php
 // Caminho para o arquivo de contador dentro da pasta Contador
-$pastaContador = '../Contador/';
+$pastaContador = '../ReceberEncomendas/Contador/';
 $contadorArquivo = $pastaContador . 'contador1.txt';
 
 // Função para verificar se o token existe no arquivo
@@ -12,7 +12,7 @@ function verificarToken($token, $arquivo1) {
         // Compara o token inserido com o token no arquivo
         if ($token === $tokenNoArquivo) {
             // Token válido, redireciona para FormularioCliente.php
-            header('Location: Pages/PaginasSeguintes/Formulario/FormularioCliente.php');
+            header('Location: ../ReceberEncomendas/FormularioReceberEncomendas.php');
             exit();
         } else {
             // Token inválido

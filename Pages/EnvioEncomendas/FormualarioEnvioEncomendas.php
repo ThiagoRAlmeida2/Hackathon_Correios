@@ -1,19 +1,3 @@
-<?php
-// Recebe os dados do usuário enviados pelo formulário anterior (opcionalmente, você pode salvar os dados no banco aqui)
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $nome = $_POST['nome'];
-    $cpf = $_POST['cpf'];
-    $cep = $_POST['cep'];
-    $bairro = $_POST['bairro'];
-    $rua = $_POST['rua'];
-    $numero = $_POST['numero'];
-    $rg = $_POST['rg'];
-
-}
-?>
-
-<!-- Essa pagina é um formualario que pede os dados de envio e salva no BD-->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>

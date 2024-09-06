@@ -21,15 +21,15 @@ if (isset($_POST['token']) && isset($_POST['pagina'])) {
     switch ($pagina) {
         case 'envioDeEncomendas':
             $tipo = 'E';
-            $paginaRedirecionar = '../Pages/PaginasSeguintes/FormularioCliente.php';
+            $paginaRedirecionar = '../Pages/Cliente/FormularioCliente.php';
             break;
         case 'receberEncomendas':
             $tipo = 'R';
-            $paginaRedirecionar = '../Pages/PaginasSeguintes/FormularioReceberEncomenda.php';
+            $paginaRedirecionar = '../Pages/ReceberEncomendas/FormularioReceberEncomenda.php';
             break;
         default:
             $mensagem = 'Página inválida.';
-            $paginaRedirecionar = '../Pages/ReconhecerTokenPage.php'; // Redireciona para a página de verificação com a mensagem
+            $paginaRedirecionar = '../Pages/ReconhecerTokenEnvio.php'; // Redireciona para a página de verificação com a mensagem
             break;
     }
 
@@ -41,11 +41,11 @@ if (isset($_POST['token']) && isset($_POST['pagina'])) {
         } else {
             // Define a mensagem de erro e redireciona de volta para a página de verificação
             $mensagem = 'Token inválido.';
-            $paginaRedirecionar = '../Pages/ReconhecerTokenPage.php';
+            $paginaRedirecionar = '../Pages/ReconhecerTokenEnvio.php';
         }
     } else {
         // Redireciona para a página de verificação com a mensagem de erro
-        $paginaRedirecionar = '../Pages/ReconhecerTokenPage.php';
+        $paginaRedirecionar = '../Pages/ReconhecerTokenEnvio.php';
     }
 
     // Redireciona para a página HTML com a mensagem na URL, se aplicável
@@ -56,7 +56,7 @@ if (isset($_POST['token']) && isset($_POST['pagina'])) {
 } else {
     // Define a mensagem de erro e redireciona para a página de verificação
     $mensagem = 'Token ou página não especificados.';
-    $paginaRedirecionar = '../Pages/ReconhecerTokenPage.php';
+    $paginaRedirecionar = '../Pages/ReconhecerTokenEnvio.php';
     header("Location: $paginaRedirecionar?mensagem=" . urlencode($mensagem));
     exit();
 }

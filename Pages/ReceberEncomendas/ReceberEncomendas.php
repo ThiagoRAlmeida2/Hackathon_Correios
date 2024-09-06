@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <title>Gerar Token De Envio de Encomendas</title>
     <script>
-        function redirecionar(token) {
-            // Adiciona o token como parâmetro na URL
-            window.location.href = 'Pages/ReconhecerTokenPage.php?token=' + encodeURIComponent(token);
+        function redirecionar() {
+            window.location.href = '../ReceberEncomendas/ReconhecerTokenReceber.php';
         }
     </script>
 </head>
@@ -22,10 +21,10 @@ if (!file_exists($pastaContador)) {
 }
 
 // Função para gerar o próximo token
-function gerarToken($arquivo) {
+function gerarToken($arquivo1) {
     // Lê o último número do arquivo
-    if (file_exists($arquivo)) {
-        $ultimoToken = trim(file_get_contents($arquivo));
+    if (file_exists($arquivo1)) {
+        $ultimoToken = trim(file_get_contents($arquivo1));
         $ultimoNumero = (int) substr($ultimoToken, 1);
     } else {
         $ultimoNumero = 0;
@@ -34,21 +33,22 @@ function gerarToken($arquivo) {
     // Incrementa o número
     $novoNumero = $ultimoNumero + 1;
 
-    // Gera o token no formato R001, R002, etc.
+    // Gera o token no formato E001, E002, etc.
     $token = 'R' . str_pad($novoNumero, 3, '0', STR_PAD_LEFT);
 
     // Salva o token completo no arquivo
-    file_put_contents($arquivo, $token);
+    file_put_contents($arquivo1, $token);
 
     return $token;
 }
 
-// Gera o token
+// Gera o token e exibe
 $token = gerarToken($contadorArquivo);
 ?>
 
 <p>Token gerado: <?php echo htmlspecialchars($token); ?></p>
 <p>Siga para o setor 2</p>
-<button onclick="redirecionar('<?php echo htmlspecialchars($token); ?>')">Continuar</button>
+<button onclick="redirecionar()">Continuar</button>
 </body>
 </html>
+

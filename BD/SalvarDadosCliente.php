@@ -1,4 +1,4 @@
-<?php
+<?php /*
 
 include 'BD/Conexão.php'; // Inclui o arquivo de conexão com o BD
 
@@ -33,5 +33,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     } else {
         echo "Erro ao cadastrar o usuário.";
     }
-}
+} */
 ?>
