@@ -1,6 +1,6 @@
 <?php
 // Caminho para o arquivo de contador dentro da pasta Contador
-$pastaContador = 'Contador/';
+$pastaContador = '../ReceberEncomendas/Contador/';
 $contadorArquivo = $pastaContador . 'contador1.txt';
 
 // Função para verificar se o token existe no arquivo
