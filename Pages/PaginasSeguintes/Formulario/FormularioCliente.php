@@ -31,6 +31,7 @@
     <input type="text" id="rg" name="rg" required><br><br>
 
     <input type="submit" value="Enviar">
+
 </form>
 </body>
 </html>

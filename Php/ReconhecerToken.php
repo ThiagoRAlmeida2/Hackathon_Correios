@@ -21,11 +21,11 @@ if (isset($_POST['token']) && isset($_POST['pagina'])) {
     switch ($pagina) {
         case 'envioDeEncomendas':
             $tipo = 'E';
-            $paginaRedirecionar = '../Pages/PaginasSeguintes/ProximaPaginaEnvio.php';
+            $paginaRedirecionar = '../Pages/PaginasSeguintes/FormularioCliente.php';
             break;
         case 'receberEncomendas':
             $tipo = 'R';
-            $paginaRedirecionar = '../Pages/PaginasSeguintes/ProximaPaginaReceber.html';
+            $paginaRedirecionar = '../Pages/PaginasSeguintes/FormularioReceberEncomenda.html';
             break;
         case 'problemas':
             $tipo = 'P';
