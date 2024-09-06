@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6b5385f-e142-443d-baee-64e64f9fd917" name="Changes" comment="Version finish" />
+    <list default="true" id="e6b5385f-e142-443d-baee-64e64f9fd917" name="Changes" comment="Version finish">
+      <change afterPath="$PROJECT_DIR$/Css/FinalizarEnvioEncomendas.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/ReconhecerToken.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/ReconhecerToken.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/StyleEncomendaRecebida.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/StyleEncomendaRecebida.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Cliente/FormularioCliente.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Cliente/FormularioCliente.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/EnvioEncomendas/Contador/contador.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/EnvioEncomendas/Contador/contador.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/EnvioEncomendas/EnvioDeEncomendas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/EnvioEncomendas/EnvioDeEncomendas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/EnvioEncomendas/ReconhecerTokenEnvio.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/EnvioEncomendas/ReconhecerTokenEnvio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/EnvioEncomendas/TokenEnvioEncomendas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/EnvioEncomendas/TokenEnvioEncomendas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/ReceberEncomendas/Contador/contador1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ReceberEncomendas/Contador/contador1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/ReceberEncomendas/EncomendaRecebida.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ReceberEncomendas/EncomendaRecebida.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/ReceberEncomendas/ReconhecerTokenReceber.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ReceberEncomendas/ReconhecerTokenReceber.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/ReceberEncomendas/TokenReceberEncomendas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ReceberEncomendas/TokenReceberEncomendas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/FinalizarEnvioEncomendas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/FinalizarEnvioEncomendas.php" afterDir="false" />
+    </list>
     <list id="84693e57-4306-4ce5-bd23-0d52e93f5705" name="Changes by ferna" comment="Changes by ferna" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +142,7 @@
       <workItem from="1725632228770" duration="613000" />
       <workItem from="1725634040565" duration="13753000" />
       <workItem from="1725651175079" duration="250000" />
-      <workItem from="1725653980699" duration="2461000" />
+      <workItem from="1725653980699" duration="5565000" />
     </task>
     <task id="LOCAL-00001" summary="Primeira pagina concluida">
       <option name="closed" value="true" />
@@ -321,7 +336,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725659179560</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Version finish">
+      <option name="closed" value="true" />
+      <created>1725659720680</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1725659720680</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Version finish">
+      <option name="closed" value="true" />
+      <created>1725659912800</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1725659912800</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

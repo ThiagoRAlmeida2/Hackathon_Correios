@@ -11,7 +11,6 @@ function verificarToken($token, $arquivo) {
 
         // Compara o token inserido com o token no arquivo
         if ($token === $tokenNoArquivo) {
-            // Token válido, redireciona para FormularioCliente.php
             header('Location: ../Cliente/FormularioCliente.php');
             exit();
         } else {

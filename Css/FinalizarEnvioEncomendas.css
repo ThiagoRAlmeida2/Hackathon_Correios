@@ -1,3 +1,4 @@
+
 body {
     display: flex;
     justify-content: center;
@@ -23,7 +24,7 @@ form {
     width: 700px;
     margin-bottom: 20px;
     box-sizing: border-box;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .block {
@@ -36,7 +37,7 @@ form {
     width: 100px;
     margin-bottom: 10px;
     box-sizing: border-box;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 15px;
 }
 
@@ -78,4 +79,8 @@ button {
     border-radius: 5px;
     margin-top: 20px;
     transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffc107;
 }

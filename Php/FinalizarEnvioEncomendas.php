@@ -12,20 +12,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <title>Confirmação</title>
-    <!-- Falta Style -->
+    <link rel="stylesheet" href="../Css/FinalizarEnvioEncomendas.css">
 </head>
 <body>
+    <div class="container">
+        <h2>Encomenda Registrada com Sucesso!</h2>
 
-<h2>Encomenda Registrada com Sucesso!</h2>
+        <p>Descrição: <?php echo htmlspecialchars($descricao); ?></p>
+        <p>Peso: <?php echo htmlspecialchars($peso); ?> kg</p>
+        <p>Destino: <?php echo htmlspecialchars($destino); ?></p>
 
-<p>Descrição: <?php echo htmlspecialchars($descricao); ?></p>
-<p>Peso: <?php echo htmlspecialchars($peso); ?> kg</p>
-<p>Destino: <?php echo htmlspecialchars($destino); ?></p>
-
-<!-- Botão "Concluir" -->
-<form action="../initalPage.html" method="get">
-    <button type="submit">Concluir</button>
-</form>
-
+        <!-- Botão "Concluir" -->
+        <form action="../initalPage.html" method="get">
+            <button type="submit">Concluir</button>
+            </form>
+    </div>
 </body>
 </html>

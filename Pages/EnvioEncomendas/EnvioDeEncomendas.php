@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Gerar Token De Envio de Encomendas</title>
-    <!-- Falta Style -->
+    <link rel="stylesheet" href="../../Css/StyleEnvioReceberEncomendas.css">
     <script>
         function redirecionar() {
             // Adiciona o token como parâmetro na URL
@@ -11,7 +11,6 @@
             window.location.href = '../EnvioEncomendas/ReconhecerTokenEnvio.php';
         }
     </script>
-    <link rel="stylesheet" href="../../Css/StyleEnvioReceberEncomendas.css">
 </head>
 <body>
 <?php
