@@ -28,11 +28,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <p>Número de Rastreamento: <?php echo $numero_rastreamento; ?></p>
     <p>Confirmação de Recebimento: <?php echo ($confirmacao === 'sim') ? 'Recebido' : 'Não Recebido'; ?></p>
 
-    <p style="color:#0071AD;">Agradecemos pela sua preferência e confiança em nossos serviços. Esperamos atendê-lo(a) novamente em breve!</p>
+    <p>Agradecemos pela sua preferência e confiança em nossos serviços. Esperamos atendê-lo(a) novamente em breve!</p>
 
     <!-- Botão "Concluir" -->
     <form action="../../initalPage.html" method="get">
-        <button type="submit" class="block">Concluir</button>
+        <button type="submit">Concluir</button>
     </form>
 </div>
 
