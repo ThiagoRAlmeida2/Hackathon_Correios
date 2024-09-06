@@ -27,7 +27,7 @@ Também terá funcionalidades para que os dados sejam imprimidos e assim colocad
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/ThiagoRAlmeida2/Hackathon_Correios.git
    ```
 2. Naveque até o diretório do projeto:
    ```bash
@@ -64,7 +64,3 @@ Contribuições são bem-vindas! Se deseja contribuir com melhorias, siga os pas
    ```bash
    git push origin minha-contribuicao
    ```
-   
-## Links
-
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:thiagoralmeida23@gmail.com)
