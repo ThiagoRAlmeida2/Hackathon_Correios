@@ -21,7 +21,7 @@ if (isset($_POST['token']) && isset($_POST['pagina'])) {
     switch ($pagina) {
         case 'envioDeEncomendas':
             $tipo = 'E';
-            $paginaRedirecionar = '../Pages/PaginasSeguintes/ProximaPaginaEnvio.html';
+            $paginaRedirecionar = '../Pages/PaginasSeguintes/ProximaPaginaEnvio.php';
             break;
         case 'receberEncomendas':
             $tipo = 'R';
@@ -33,7 +33,7 @@ if (isset($_POST['token']) && isset($_POST['pagina'])) {
             break;
         default:
             $mensagem = 'Página inválida.';
-            $paginaRedirecionar = '../Pages/ReconhecerTokenPage.html'; // Redireciona para a página de verificação com a mensagem
+            $paginaRedirecionar = '../Pages/ReconhecerTokenPage.php'; // Redireciona para a página de verificação com a mensagem
             break;
     }
 
@@ -45,11 +45,11 @@ if (isset($_POST['token']) && isset($_POST['pagina'])) {
         } else {
             // Define a mensagem de erro e redireciona de volta para a página de verificação
             $mensagem = 'Token inválido.';
-            $paginaRedirecionar = '../Pages/ReconhecerTokenPage.html';
+            $paginaRedirecionar = '../Pages/ReconhecerTokenPage.php';
         }
     } else {
         // Redireciona para a página de verificação com a mensagem de erro
-        $paginaRedirecionar = '../Pages/ReconhecerTokenPage.html';
+        $paginaRedirecionar = '../Pages/ReconhecerTokenPage.php';
     }
 
     // Redireciona para a página HTML com a mensagem na URL, se aplicável
@@ -60,7 +60,7 @@ if (isset($_POST['token']) && isset($_POST['pagina'])) {
 } else {
     // Define a mensagem de erro e redireciona para a página de verificação
     $mensagem = 'Token ou página não especificados.';
-    $paginaRedirecionar = '../Pages/ReconhecerTokenPage.html';
+    $paginaRedirecionar = '../Pages/ReconhecerTokenPage.php';
     header("Location: $paginaRedirecionar?mensagem=" . urlencode($mensagem));
     exit();
 }

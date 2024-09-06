@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6b5385f-e142-443d-baee-64e64f9fd917" name="Changes" comment="Adicionando função de Token.php">
-      <change afterPath="$PROJECT_DIR$/Css/ReconhecerToken.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/PaginasSeguintes/ProximaPaginaEnvio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/PaginasSeguintes/ProximaPaginaProblemas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/PaginasSeguintes/ProximaPaginaReceber.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/ReconhecerTokenPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Php/ReconhecerToken.php" afterDir="false" />
+    <list default="true" id="e6b5385f-e142-443d-baee-64e64f9fd917" name="Changes" comment="Implementando função ReconhecerToken.php e ReconhecerTokenPage.html">
+      <change afterPath="$PROJECT_DIR$/BD/Conexão.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BD/SalvarFormularioEnvio.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/envioDeEncomendas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/EnvioDeEncomendas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/problemas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Problemas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/receberEncomendas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ReceberEncomendas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/initialPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/InitialPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/EnvioDeEncomendas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/EnvioDeEncomendas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/PaginasSeguintes/ProximaPaginaEnvio.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PaginasSeguintes/ProximaPaginaEnvio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/ReconhecerTokenPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ReconhecerTokenPage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Php/ReconhecerToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/ReconhecerToken.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/initalPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/initalPage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,23 +57,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;PHP Script.Token.php.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "PHP Script.Token.php.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jayce\PhpstormProjects\Hackathon_Correios\Pages\Paginas seguintes" />
@@ -104,7 +107,9 @@
       <workItem from="1725576347857" duration="3098000" />
       <workItem from="1725579809414" duration="101000" />
       <workItem from="1725579919079" duration="395000" />
-      <workItem from="1725580541446" duration="3047000" />
+      <workItem from="1725580541446" duration="3206000" />
+      <workItem from="1725583842849" duration="405000" />
+      <workItem from="1725618227490" duration="1771000" />
     </task>
     <task id="LOCAL-00001" summary="Primeira pagina concluida">
       <option name="closed" value="true" />
@@ -154,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725580717029</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implementando função ReconhecerToken.php e ReconhecerTokenPage.html">
+      <option name="closed" value="true" />
+      <created>1725583744414</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725583744414</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +176,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primeira pagina concluida" />
     <MESSAGE value="Adicionando função de Token.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando função de Token.php" />
+    <MESSAGE value="Implementando função ReconhecerToken.php e ReconhecerTokenPage.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementando função ReconhecerToken.php e ReconhecerTokenPage.html" />
   </component>
 </project>
