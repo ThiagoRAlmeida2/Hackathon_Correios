@@ -9,12 +9,13 @@ Este repositório contém o desenvolvimento de um **Sistema de Autoatendimento**
 - **Relatar Problemas**
 
 O sistema está sendo desenvolvido utilizando **HTML/CSS** para a interface do usuário e **PHP** para a lógica de backend, que inclui a geração de tokens através de incrementos para o acompanhamento de solicitações, e tambem o reconhecimento dos tokens dentro do setor e pagina correspondente.
-
+O sistema tambem irá contar no futuro com uma implementação de um codigo que irá fazer uma conexão com uma balança e sensor de imagem para saber peso, tamanho, formato do objeto e assim poder mostrar para o cliente qual embalagem será a mais recomendada para o seu item.
+Também terá funcionalidades para que os dados sejam imprimidos e assim colocados na caixa da embalagem para depois ser enviado. 
 ## Funcionalidades
 
 1. **Envio de Encomendas**: Permite que o cliente registre uma encomenda para envio, gerando um token exclusivo para rastreamento.
-2. **Receber Encomendas**: Facilita o acompanhamento de encomendas enviadas ao cliente com base no token gerado.
-3. **Relatar Problemas**: Permite que os clientes converse com funcionarios sobre problemas com suas encomendas, como atrasos ou extravios.
+2. **Receber Encomendas**: Facilita a busca da encomenda que está em um ponto dos correios, no qual o usuario pode resgatar com seus dados.
+3. **Relatar Problemas**: Permite que os clientes converse com funcionarios ou até mesmo consiga tirar suas duvidas no painel, sobre problemas com suas encomendas, como atrasos ou extravios.
 
 ## Tecnologias Utilizadas
 
