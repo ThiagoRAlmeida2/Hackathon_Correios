@@ -4,68 +4,33 @@
     <meta charset="UTF-8">
     <title>Perguntas Frequentes</title>
     <link rel="stylesheet" href="../../Css/PerguntasFrequentes.css">
-    <style>
-        .faq-container {
-            display: flex;
-            flex-direction: column;
-            max-width: 600px;
-            margin: auto;
-        }
-        .faq-item {
-            background-color: #f9f9f9;
-            border: 1px solid #ddd;
-            margin: 5px 0;
-            padding: 10px;
-            cursor: pointer;
-            border-radius: 4px;
-            position: relative;
-        }
-        .faq-content {
-            display: none;
-            padding: 10px;
-            border-top: 1px solid #ddd;
-            background-color: #f1f1f1;
-        }
-        .toggle-arrow {
-            position: absolute;
-            right: 10px;
-            top: 10px;
-            font-size: 16px;
-            transition: transform 0.3s ease;
-        }
-        .arrow-down {
-            transform: rotate(0deg);
-        }
-        .arrow-up {
-            transform: rotate(180deg);
-        }
-        .back-link {
-            display: block;
-            margin: 20px auto;
-            text-align: center;
-            text-decoration: none;
-            color: #007BFF;
-            font-size: 16px;
-        }
-        .back-link:hover {
-            text-decoration: underline;
-        }
-    </style>
 </head>
 <body>
 
 <div class="faq-container">
     <div class="faq-item" onmouseover="showContent(this)" onmouseout="hideContent(this)">
-        <h3>Pergunta 1 <span class="toggle-arrow arrow-down">▼</span></h3>
-        <div class="faq-content">Resposta para a pergunta 1.</div>
+        <h3>Como faço para rastrear meu pedido? <span class="toggle-arrow arrow-down">▼</span></h3>
+        <div class="faq-content">Você pode rastrear seu pedido usando o código de rastreamento fornecido em nosso site na seção "Rastrear Pedido". Basta inserir o código no campo de rastreamento para obter o status atual da entrega.</div>
     </div>
     <div class="faq-item" onmouseover="showContent(this)" onmouseout="hideContent(this)">
-        <h3>Pergunta 2 <span class="toggle-arrow arrow-down">▼</span></h3>
-        <div class="faq-content">Resposta para a pergunta 2.</div>
+        <h3>Qual é o prazo de entrega? <span class="toggle-arrow arrow-down">▼</span></h3>
+        <div class="faq-content">O prazo de entrega varia de acordo com a sua localização e o método de envio escolhido. Normalmente, as entregas levam de 3 a 7 dias úteis para destinos nacionais e até 15 dias para destinos internacionais.</div>
     </div>
     <div class="faq-item" onmouseover="showContent(this)" onmouseout="hideContent(this)">
-        <h3>Pergunta 3 <span class="toggle-arrow arrow-down">▼</span></h3>
-        <div class="faq-content">Resposta para a pergunta 3.</div>
+        <h3>Posso alterar o endereço de entrega após a confirmação do pedido? <span class="toggle-arrow arrow-down">▼</span></h3>
+        <div class="faq-content">Sim, você pode alterar o endereço de entrega, desde que o pedido ainda não tenha sido despachado. Para alterar, entre em contato com nossa equipe de suporte ao cliente.</div>
+    </div>
+    <div class="faq-item" onmouseover="showContent(this)" onmouseout="hideContent(this)">
+        <h3>O que devo fazer se meu pedido estiver atrasado? <span class="toggle-arrow arrow-down">▼</span></h3>
+        <div class="faq-content">Caso seu pedido esteja atrasado, verifique primeiro o status de rastreamento. Se o problema persistir, entre em contato com nosso suporte ao cliente para que possamos auxiliá-lo.</div>
+    </div>
+    <div class="faq-item" onmouseover="showContent(this)" onmouseout="hideContent(this)">
+        <h3>Há custos adicionais de envio? <span class="toggle-arrow arrow-down">▼</span></h3>
+        <div class="faq-content">Os custos de envio são calculados com base no peso e no destino do pedido. Em alguns casos, taxas adicionais, como impostos de importação, podem ser aplicadas para envios internacionais.</div>
+    </div>
+    <div class="faq-item" onmouseover="showContent(this)" onmouseout="hideContent(this)">
+        <h3>Como funciona a política de devolução? <span class="toggle-arrow arrow-down">▼</span></h3>
+        <div class="faq-content">Nossa política de devolução permite que você devolva os itens em até 30 dias após o recebimento, desde que estejam nas mesmas condições em que foram enviados. Entre em contato com nosso suporte para iniciar o processo de devolução.</div>
     </div>
 </div>
 
