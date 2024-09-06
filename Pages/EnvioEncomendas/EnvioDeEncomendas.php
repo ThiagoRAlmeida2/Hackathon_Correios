@@ -10,6 +10,7 @@
             window.location.href = '../EnvioEncomendas/ReconhecerTokenEnvio.php';
         }
     </script>
+    <link rel="stylesheet" href="../../Css/StyleEnvioReceberEncomendas.css">
 </head>
 <body>
 <?php
@@ -47,9 +48,10 @@ function gerarToken($arquivo) {
 // Gera o token e exibe
 $token = gerarToken($contadorArquivo);
 ?>
-
-<p>Token gerado: <span id="token"><?php echo htmlspecialchars($token); ?></span></p>
-<p>Siga para o setor 1</p>
-<button onclick="redirecionar()">Continuar</button>
+<div class="container">
+    <h3>Token gerado:    </h3> <h2><span id="token"><?php echo htmlspecialchars($token); ?></span><br></h2>
+    <h3>Siga para o <u>setor 1</u></h3>
+    <button class="block" onclick="redirecionar()">Continuar</button>
+</div>
 </body>
 </html>
