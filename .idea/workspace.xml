@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6b5385f-e142-443d-baee-64e64f9fd917" name="Changes" comment="Pagina de Fomulario de ProximaPaginaEnvio.php">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/PaginasSeguintes/ProximaPaginaEnvio.php" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PaginasSeguintes/Formulario/FormularioCliente.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/PaginasSeguintes/ProximaPaginaReceber.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/PaginasSeguintes/FormularioReceberEncomenda.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/ReconhecerToken.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/ReconhecerToken.php" afterDir="false" />
-    </list>
+    <list default="true" id="e6b5385f-e142-443d-baee-64e64f9fd917" name="Changes" comment="Alterando nome de arquivo SalvarDadosCliente.php" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,11 +71,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jayce\PhpstormProjects\Hackathon_Correios\Pages\PaginasSeguintes\Formulario" />
       <recent name="C:\Users\jayce\PhpstormProjects\Hackathon_Correios\Pages\Paginas seguintes" />
       <recent name="C:\Users\jayce\PhpstormProjects\Hackathon_Correios" />
       <recent name="C:\Users\jayce\PhpstormProjects\Hackathon_Correios\Pages" />
       <recent name="C:\Users\jayce\WebstormProjects\Correios" />
-      <recent name="C:\Users\jayce\WebstormProjects\Correios\Css" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -105,7 +100,7 @@
       <workItem from="1725580541446" duration="3206000" />
       <workItem from="1725583842849" duration="405000" />
       <workItem from="1725618227490" duration="2012000" />
-      <workItem from="1725620466588" duration="436000" />
+      <workItem from="1725620466588" duration="854000" />
     </task>
     <task id="LOCAL-00001" summary="Primeira pagina concluida">
       <option name="closed" value="true" />
@@ -171,7 +166,23 @@
       <option name="project" value="LOCAL" />
       <updated>1725620134644</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Pagina de Fomulario de ProximaPaginaEnvio.php">
+      <option name="closed" value="true" />
+      <created>1725621065286</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725621065286</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Alterando nome de arquivo SalvarDadosCliente.php">
+      <option name="closed" value="true" />
+      <created>1725621314654</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1725621314654</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +193,7 @@
     <MESSAGE value="Adicionando função de Token.php" />
     <MESSAGE value="Implementando função ReconhecerToken.php e ReconhecerTokenPage.html" />
     <MESSAGE value="Pagina de Fomulario de ProximaPaginaEnvio.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pagina de Fomulario de ProximaPaginaEnvio.php" />
+    <MESSAGE value="Alterando nome de arquivo SalvarDadosCliente.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alterando nome de arquivo SalvarDadosCliente.php" />
   </component>
 </project>
