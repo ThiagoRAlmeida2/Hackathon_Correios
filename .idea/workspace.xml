@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6b5385f-e142-443d-baee-64e64f9fd917" name="Changes" comment="Css">
-      <change beforePath="$PROJECT_DIR$/Pages/EnvioDeEncomendas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/EnvioDeEncomendas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/ReceberEncomendas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ReceberEncomendas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Php/Token.php" beforeDir="false" afterPath="$PROJECT_DIR$/Php/Token.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initalPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/initalPage.html" afterDir="false" />
-    </list>
+    <list default="true" id="e6b5385f-e142-443d-baee-64e64f9fd917" name="Changes" comment="Tokens" />
+    <list id="84693e57-4306-4ce5-bd23-0d52e93f5705" name="Changes by ferna" comment="Changes by ferna" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -52,46 +48,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.FormualarioEnvioEncomendas.php.executor": "Run",
-    "JavaScript Debug.initalPage.html.executor": "Run",
-    "PHP Script.FormualarioEnvioEncomendas.php.executor": "Run",
-    "PHP Script.Token.php.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.FormualarioEnvioEncomendas.php.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.initalPage.html.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.Conexão.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.FormualarioEnvioEncomendas.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.Token.php.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jayce\PhpstormProjects\Hackathon_Correios\Pages\PaginasSeguintes\Formulario" />
-      <recent name="C:\Users\jayce\PhpstormProjects\Hackathon_Correios\Pages\Paginas seguintes" />
-      <recent name="C:\Users\jayce\PhpstormProjects\Hackathon_Correios" />
+      <recent name="C:\Users\jayce\PhpstormProjects\Hackathon_Correios\Pages\EnvioEncomendas" />
+      <recent name="C:\Users\jayce\PhpstormProjects\Hackathon_Correios\Pages\ReceberEncomendas" />
+      <recent name="C:\Users\jayce\PhpstormProjects\Hackathon_Correios\Pages\Problemas" />
+      <recent name="C:\Users\jayce\PhpstormProjects\Hackathon_Correios\Pages\Cliente" />
       <recent name="C:\Users\jayce\PhpstormProjects\Hackathon_Correios\Pages" />
-      <recent name="C:\Users\jayce\WebstormProjects\Correios" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="FormualarioEnvioEncomendas.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Pages/PaginasSeguintes/Formulario/FormualarioEnvioEncomendas.php">
+  <component name="RunManager" selected="PHP Script.Conexão.php">
+    <configuration name="Conexão.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/BD/Conexão.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="FormualarioEnvioEncomendas.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Pages/EnvioEncomendas/FormualarioEnvioEncomendas.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.Conexão.php" />
         <item itemvalue="PHP Script.FormualarioEnvioEncomendas.php" />
       </list>
     </recent_temporary>
@@ -121,7 +122,7 @@
       <workItem from="1725620466588" duration="2692000" />
       <workItem from="1725632124787" duration="5000" />
       <workItem from="1725632228770" duration="613000" />
-      <workItem from="1725634040565" duration="3665000" />
+      <workItem from="1725634040565" duration="13753000" />
     </task>
     <task id="LOCAL-00001" summary="Primeira pagina concluida">
       <option name="closed" value="true" />
@@ -235,7 +236,39 @@
       <option name="project" value="LOCAL" />
       <updated>1725635631885</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Tokens">
+      <option name="closed" value="true" />
+      <created>1725643596315</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1725643596315</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Changes by ferna">
+      <option name="closed" value="true" />
+      <created>1725643606926</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1725643606926</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Tokens">
+      <option name="closed" value="true" />
+      <created>1725648104994</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1725648104994</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Tokens">
+      <option name="closed" value="true" />
+      <created>1725648261217</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1725648261217</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +282,8 @@
     <MESSAGE value="Alterando nome de arquivo SalvarDadosCliente.php" />
     <MESSAGE value="Adicionando comentarios" />
     <MESSAGE value="Css" />
-    <option name="LAST_COMMIT_MESSAGE" value="Css" />
+    <MESSAGE value="Changes by ferna" />
+    <MESSAGE value="Tokens" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tokens" />
   </component>
 </project>
