@@ -1,3 +1,4 @@
+<!-- Essa pagina ela vai reconhecer o token do cliente apos gerar o token -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>

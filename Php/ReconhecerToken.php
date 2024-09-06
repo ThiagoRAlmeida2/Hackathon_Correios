@@ -25,7 +25,7 @@ if (isset($_POST['token']) && isset($_POST['pagina'])) {
             break;
         case 'receberEncomendas':
             $tipo = 'R';
-            $paginaRedirecionar = '../Pages/PaginasSeguintes/FormularioReceberEncomenda.html';
+            $paginaRedirecionar = '../Pages/PaginasSeguintes/FormularioReceberEncomenda.php';
             break;
         case 'problemas':
             $tipo = 'P';

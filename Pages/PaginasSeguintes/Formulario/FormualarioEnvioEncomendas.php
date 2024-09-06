@@ -12,6 +12,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
+<!-- Essa pagina é um formualario que pede os dados de envio e salva no BD-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -22,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <h2>Dados da Encomenda</h2>
 
-<form action="finalizar.php" method="POST">
+<form action="../../../Php/FinalizarEnvioEncomendas.php" method="POST">
     <label for="descricao">Descrição da Encomenda:</label>
     <input type="text" id="descricao" name="descricao" required><br><br>
 

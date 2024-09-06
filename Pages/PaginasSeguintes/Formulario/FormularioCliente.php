@@ -1,4 +1,4 @@
-
+<!-- Essa pagina é um formualario que pede os dados dos usuarios e salva no BD-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
