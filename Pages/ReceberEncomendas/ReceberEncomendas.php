@@ -9,6 +9,7 @@
             window.location.href = '../ReceberEncomendas/ReconhecerTokenReceber.php';
         }
     </script>
+    <link rel="stylesheet" href="../../Css/StyleEnvioReceberEncomendas.css">
 </head>
 <body>
 <?php
@@ -47,9 +48,12 @@ function gerarToken($arquivo1) {
 $token = gerarToken($contadorArquivo);
 ?>
 
-<p>Token gerado: <?php echo htmlspecialchars($token); ?></p>
-<p>Siga para o setor 2</p>
-<button onclick="redirecionar()">Continuar</button>
+<div class="container">
+    <h3>Token gerado:    </h3> <h2><?php echo htmlspecialchars($token); ?><br></h2>
+    <h3>Siga para o <u>setor 2</u></h3>
+    <button class="block" onclick="redirecionar()">Continuar</button>
+</div>
+
 </body>
 </html>
 
