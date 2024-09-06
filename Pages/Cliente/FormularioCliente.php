@@ -8,7 +8,7 @@
 </head>
 <body>
 <h1>Formulário de Cadastro</h1>
-<form action="../../../BD/SalvarDadosCliente.php" method="post">
+<form action="../../BD/SalvarDadosCliente.php" method="post">
     <label for="nome">Nome:</label>
     <input type="text" id="nome" name="nome" required><br><br>
 

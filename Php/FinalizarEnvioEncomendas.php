@@ -5,7 +5,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $peso = $_POST['peso'];
     $destino = $_POST['destino'];
 
-    // Aqui você pode salvar esses dados no banco de dados, se necessário
 }
 ?>
 

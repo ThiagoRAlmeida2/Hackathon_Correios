@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Perguntas Frequentes</title>
+    <link rel="stylesheet" href="../../Css/PerguntasFrequentes.css">
+    <style>
+        .faq-container {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: auto;
+        }
+        .faq-item {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            margin: 5px 0;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 4px;
+            position: relative;
+        }
+        .faq-content {
+            display: none;
+            padding: 10px;
+            border-top: 1px solid #ddd;
+            background-color: #f1f1f1;
+        }
+        .toggle-arrow {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            font-size: 16px;
+            transition: transform 0.3s ease;
+        }
+        .arrow-down {
+            transform: rotate(0deg);
+        }
+        .arrow-up {
+            transform: rotate(180deg);
+        }
+        .back-link {
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 16px;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="faq-container">
+    <div class="faq-item" onmouseover="showContent(this)" onmouseout="hideContent(this)">
+        <h3>Pergunta 1 <span class="toggle-arrow arrow-down">▼</span></h3>
+        <div class="faq-content">Resposta para a pergunta 1.</div>
+    </div>
+    <div class="faq-item" onmouseover="showContent(this)" onmouseout="hideContent(this)">
+        <h3>Pergunta 2 <span class="toggle-arrow arrow-down">▼</span></h3>
+        <div class="faq-content">Resposta para a pergunta 2.</div>
+    </div>
+    <div class="faq-item" onmouseover="showContent(this)" onmouseout="hideContent(this)">
+        <h3>Pergunta 3 <span class="toggle-arrow arrow-down">▼</span></h3>
+        <div class="faq-content">Resposta para a pergunta 3.</div>
+    </div>
+</div>
+
+<a href="javascript:history.back()" class="back-link">Voltar</a>
+
+<script>
+    function showContent(element) {
+        const content = element.querySelector('.faq-content');
+        const arrow = element.querySelector('.toggle-arrow');
+
+        content.style.display = 'block';
+        arrow.classList.add('arrow-up');
+    }
+
+    function hideContent(element) {
+        const content = element.querySelector('.faq-content');
+        const arrow = element.querySelector('.toggle-arrow');
+
+        content.style.display = 'none';
+        arrow.classList.remove('arrow-up');
+    }
+</script>
+
+</body>
+</html>

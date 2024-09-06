@@ -1,21 +1,15 @@
-<!-- Essa pagina ela vai reconhecer o token do cliente apos gerar o token -->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Verificar Token</title>
-    <link rel="stylesheet" href="../Css/ReconhecerToken.css">
 </head>
 <body>
-
-<div class="block">
-    <form action="../Php/ReconhecerToken.php" method="post">
-        <label for="token">Token:</label>
-        <input type="text" id="token" name="token" required>
-        <input type="hidden" name="pagina" value="envioDeEncomendas">
-        <input type="submit" value="Verificar Token">
-    </form>
-</div>
+<h1>Verificar Token</h1>
+<form action="EnvioEncomendas/TokenEnvioEncomendas.php" method="post">
+    <label for="token">Digite o Token:</label>
+    <input type="text" id="token" name="token" required>
+    <button type="submit">Verificar</button>
+</form>
 </body>
 </html>
